@@ -28,6 +28,14 @@ export const Wrapper = styled.section`
     gap: 2px;
     padding-bottom: 40px;
   }
+
+  .content-result {
+    background: #fff;
+    border-radius: 5px;
+    margin: 15px auto;
+    padding: 15px;
+    color: #3d3f66;
+  }
 `
 export const Title = styled.h1`
   font-size: 20px;
@@ -58,7 +66,7 @@ export const Input = styled.input`
   text-transform: uppercase;
   border: none;
   padding: 10px 12px;
-  margin-top: 5px;
+  margin: 3px auto;
   border-radius: 5px;
 `
 

@@ -11,15 +11,15 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Home />
-      <Buttons />
-
+      {/* <Home /> */}
       <Routes>
+        <Route path="/" element={<Home />} />
         <Route path="/blueBlock" element={<BlueBlock />} />
         <Route path="/block6in1" element={<Block6in1 />} />
         <Route path="/cutF1" element={<CutF1 />} />
         <Route path="/cutA4" element={<CutA4 />} />
       </Routes>
+      <Buttons />
     </div>
   )
 }
