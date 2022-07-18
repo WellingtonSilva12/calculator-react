@@ -14,8 +14,6 @@ const BlueBlock = () => {
     const numberBlock = parseFloat(block) + parseFloat(numberInit) - 1
 
     setResNumber(numberBlock)
-    console.log(block)
-    console.log(numberBlock)
   }
 
   return (
